@@ -1,0 +1,24 @@
+{
+    "count_all": [
+        {
+            "weight": "resources/weight/head_3_8_2023_640.pt",
+            "classes": [0],
+            "imgz": 640,
+            "conf": 0.25,
+            "device": "0",
+            "data": "resources/weight/head.yaml",
+            "path_lib": "resources/weight/libyolov5_head.so"
+        }
+    ],
+    "count_polygon": [
+    {
+            "weight": "resources/weight/person_24_08_320.pt",
+            "classes": [0],
+            "imgz": 320,
+            "conf": 0.4,
+            "device": "0",
+            "data": "resources/weight/person.yaml",
+            "path_lib": "resources/weight/libyolov5_person.so"
+        }
+    ]
+}
